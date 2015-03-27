@@ -1,0 +1,23 @@
+/* Lab 1G - Algorithm to look up a phone number
+2/18/2015
+Pete Wilcox */
+
+strings for first name, last name inputs from user; first name, last name looked up in phone book;
+int for phone number;
+
+main () {
+	cout << "Input name: ";
+	cin >> first name & last name;
+	
+	while ((first name input != first name from phonebook)&&((last name != last name from phonebook)) {
+		while(last name input != last name in phonebook) {
+			last name in phonebook = next name in phonebook;
+			}
+		while(first name input != first name in phonebook) {
+			first name in phonebook != next name in phonebook;
+			}
+		phone number = phone number from this line in phonebook;
+		}
+	cout << "Phone number: " << phone number;
+}
+	

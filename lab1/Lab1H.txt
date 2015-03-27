@@ -1,0 +1,22 @@
+//Lab1H - Find the smallest number
+//2/18/2015
+//Pete Wilcox
+
+int for input m, input n, match x to nth smallest number;
+int x, y, for working numbers
+
+cout "Input list of numbers:"
+cin m;
+
+cout "input n"
+cin n;
+x=n; for number of loops
+y=m.first;
+while(x>1) { //repeat until you have the nth largest number
+	if (y>m.next) {
+		y=m.next;
+		}
+	m=m-m.next; //remove this number from the array
+	}
+
+cout "Nth largest number is " y;
